@@ -1,0 +1,6895 @@
+{
+  "title": "",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "DBMS",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Notes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "What is Database",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The database is a collection of inter-related data which is used to retrieve, insert and",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "delete the data efficiently. It is also used to organize the data in the form of a table,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "schema, views, and reports, etc.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "For example:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The college Database organizes the data about the admin, staff,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "students and faculty etc.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Using the database, you can easily retrieve, insert, and delete the information.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Database Management System",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Database management system is a software which is used to manage the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "database. For example:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "MySQL",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": ",",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Oracle",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": ", etc are a very popular commercial",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "database which is used in different applications.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "DBMS provides an interface to perform various operations like database",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "creation, storing data in it, updating data, creating a table in the database and a",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "lot more.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "It provides protection and security to the database. In the case of multiple users,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "it also maintains data consistency.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "DBMS allows users the following tasks:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Data Definition:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "It is used for creation, modification, and removal of definition",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "that defines the organization of data in the database.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Data Updation:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "It is used for the insertion, modification, and deletion of the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "actual data in the database.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Data Retrieval:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "It is used to retrieve the data from the database which can be",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "used by applications for various purposes.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "User Administration:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It is used for registering and monitoring users, maintain",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "data integrity, enforcing data security, dealing with concurrency control,",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "monitoring performance and recovering information corrupted by unexpected",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "failure.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Characteristics of DBMS",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It uses a digital repository established on a server to store and manage the",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "information.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It can provide a clear and logical view of the process that manipulates data.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "DBMS contains automatic backup and recovery procedures.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It contains ACID properties which maintain data in a healthy state in case of",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "failure.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It can reduce the complex relationship between data.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It is used to support manipulation and processing of data.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It is used to provide security of data.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It can view the database from different viewpoints according to the",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "requirements of the user.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Advantages of DBMS",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Controls database redundancy:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It can control data redundancy because it",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "stores all the data in one single database file and that recorded data is placed in",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "the database.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Data sharing:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "In DBMS, the authorized users of an organization can share the",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "data among multiple users.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Easily Maintenance:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It can be easily maintainable due to the centralized nature",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "of the database system.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Reduce time:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It reduces development time and maintenance need.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Backup:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "It provides backup and recovery subsystems which create automatic",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "backup of data from",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "hardware",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "and",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "software",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "failures and restores the data if",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "required.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "multiple user interface:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "It provides different types of user interfaces like",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "graphical user interfaces, application program interfaces",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Disadvantages of DBMS",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Cost of Hardware and Software:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "It requires a high speed of data processor and",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "large memory size to run DBMS software.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Size:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "It occupies a large space of disks and large memory to run them",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "efficiently.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Complexity:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Database system creates additional complexity and requirements.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Higher impact of failure:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Failure is highly impacted the database because in",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "most of the organization, all the data stored in a single database and if the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "database is damaged due to electric failure or database corruption then the data",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "may be lost forever.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "DATABASE",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "What is Data?",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Data is a collection of a distinct small unit of information. It can be used in a variety",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "of forms like text, numbers, media, bytes, etc. it can be stored in pieces of paper or",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "electronic memory, etc.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Word 'Data' is originated from the word 'datum' that means 'single piece of",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "information.' It is plural of the word datum.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "In computing, Data is information that can be translated into a form for efficient",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "movement and processing. Data is interchangeable.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "What is Database?",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "A",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "database",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "is an organized collection of data, so that it can be easily accessed and",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "managed.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "You can organize data into tables, rows, columns, and index it to make it easier to",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "find relevant information.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Database handlers",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "create a database in such a way that only one set of software",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "program provides access of data to all the users.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "The",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "main purpose",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "of the database is to operate a large amount of information by",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "storing, retrieving, and managing data.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "There are many",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "dynamic websites",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "on the World Wide Web nowadays which are",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "handled through databases. For example, a model that checks the availability of",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "rooms in a hotel. It is an example of a dynamic website that uses a database.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "There are many",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "databases available",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "like MySQL, Sybase, Oracle, MongoDB,",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Informix, PostgreSQL, SQL Server, etc.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Modern databases are managed by the database management system (DBMS).",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "SQL",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "or Structured Query Language is used to operate on the data stored in a",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "database. SQL depends on relational algebra and tuple relational calculus.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "A cylindrical structure is used to display the image of a database.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Evolution of Databases",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "The database has completed more than 50 years of journey of its evolution from flat-",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "file system to relational and objects relational systems. It has gone through several",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "generations",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": ".",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "The Evolution",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "File-Based",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1968 was the year when File-Based database were introduced. In file-based",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "databases, data was maintained in a flat file. Though files have many advantages,",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "there are several limitations.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "One of the major advantages is that the file system has various access methods, e.g.,",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "sequential, indexed, and random.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "It requires extensive programming in a third-generation language such as COBOL,",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "BASIC.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Hierarchical Data Model",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1968-1980 was the era of the Hierarchical Database. Prominent hierarchical database",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "model was IBM's first DBMS. It was called IMS (Information Management System).",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "In this model, files are related in a parent/child manner.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Below diagram represents Hierarchical Data Model. Small circle represents objects.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Like file system, this model also had some limitations like complex implementation,",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "lack structural independence, can't easily handle a many-many relationship, etc.",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Network data model",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Charles Bachman",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "developed the first DBMS at Honeywell called Integrated Data",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Store (IDS). It was developed in the early 1960s, but it was standardized in 1971 by",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "the CODASYL group (Conference on Data Systems Languages).",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "In this model, files are related as owners and members, like to the common network",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "model.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Network data model identified the following components:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Network schema (Database organization)",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Sub-schema (views of database per user)",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Data management language (procedural)",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "This model also had some limitations like system complexity and difficult to design",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "and maintain.",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Relational Database",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "1970 - Present:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "It is the era of Relational Database and Database Management. In",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "1970, the relational model was proposed by E.F. Codd.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Relational database model has two main terminologies called instance and schema.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "The instance is a table with rows or columns",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Schema specifies the structure like name of the relation, type of each column and",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "name.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "This model uses some mathematical concept like set theory and predicate logic.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "The first internet database application had been created in 1995.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "During the era of the relational database, many more models had introduced like",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "object-oriented model, object-relational model, etc.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Cloud database",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Cloud database facilitates you to store, manage, and retrieve their structured,",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "unstructured data via a cloud platform. This data is accessible over the Internet.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Cloud databases are also called a database as service (DBaaS) because they are",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "offered as a managed service.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Some best cloud options are:",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "AWS (Amazon Web Services)",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Snowflake Computing",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Oracle Database Cloud Services",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Microsoft SQL server",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Google cloud spanner",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Advantages of cloud database",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Lower costs",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Generally, company provider does not have to invest in databases. It can maintain",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "and support one or more data centers.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Automated",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Cloud databases are enriched with a variety of automated processes such as recovery,",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "failover, and auto-scaling.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Increased accessibility",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "You can access your cloud-based database from any location, anytime. All you need",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "is just an internet connection.",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "NoSQL Database",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "A NoSQL database is an approach to design such databases that can accommodate",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "a wide variety of data models. NoSQL stands for \"not only SQL.\" It is an alternative",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "to traditional relational databases in which data is placed in tables, and data schema",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "is perfectly designed before the database is built.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "NoSQL databases are useful for a large set of distributed data.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Some examples of NoSQL database system with their category are:",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "MongoDB, CouchDB, Cloudant",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "(Document-based)",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Memcached, Redis, Coherence",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "(key-value store)",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "HBase, Big Table, Accumulo",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "(Tabular)",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Advantage of NoSQL",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "High Scalability",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "NoSQL can handle an extensive amount of data because of scalability. If the data",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "grows, NoSQL database scale it to handle that data in an efficient manner.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "High Availability",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "NoSQL supports auto replication. Auto replication makes it highly available",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "because, in case of any failure, data replicates itself to the previous consistent state.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Disadvantage of NoSQL",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Open source",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "NoSQL is an open-source database, so there is no reliable standard for NoSQL yet.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Management challenge",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Data management in NoSQL is much more complicated than relational databases. It",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "is very challenging to install and even more hectic to manage daily.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "GUI is not available",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "GUI tools for NoSQL database are not easily available in the market.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Backup",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Backup is a great weak point for NoSQL databases. Some databases, like MongoDB,",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "have no powerful approaches for data backup.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "The Object-Oriented Databases",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "The object-oriented databases contain data in the form of object and classes. Objects",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "are the real-world entity, and types are the collection of objects. An object-oriented",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "database is a combination of relational model features with objects oriented",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "principles. It is an alternative implementation to that of the relational model.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Object-oriented databases hold the rules of object-oriented programming. An object-",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "oriented database management system is a hybrid application.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "The object-oriented database model contains the following properties.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Object-oriented programming properties",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Objects",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Classes",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Inheritance",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Polymorphism",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Encapsulation",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Relational database properties",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Atomicity",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Consistency",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Integrity",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Durability",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Concurrency",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Query processing",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Graph Databases",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "A graph database is a NoSQL database. It is a graphical representation of data.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "It contains nodes and edges. A node represents an entity, and each edge",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "represents a relationship between two edges. Every node in a graph database",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "represents a unique identifier.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Graph databases are beneficial for searching the relationship between data",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "because they highlight the relationship between relevant data.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Graph databases are very useful when the database contains a complex",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "relationship and dynamic schema.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "It is mostly used in",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "supply chain management",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": ", identifying the source of",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "IP",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "telephony",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "DBMS (Data Base Management System)",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Database management System is software which is used to store and retrieve",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "the database. For example, Oracle, MySQL, etc.; these are some popular",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "DBMS tools.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "DBMS provides the interface to perform the various operations like creation,",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "deletion, modification, etc.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "DBMS allows the user to create their databases as per their requirement.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "DBMS accepts the request from the application and provides specific data",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "through the operating system.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "DBMS contains the group of programs which acts according to the user",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "instruction.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "It provides security to the database.",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Advantage of DBMS",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Controls redundancy",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "It stores all the data in a single database file, so it can control data redundancy.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Data sharing",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "An authorized user can share the data among multiple users.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Backup",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "It providesBackup and recovery subsystem. This recovery system creates",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "automatic data from system failure and restores data if required.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Multiple user interfaces",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "It provides a different type of user interfaces like GUI, application interfaces.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Disadvantage of DBMS",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Size",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "It occupies large disk space and large memory to run efficiently.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Cost",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "DBMS requires a high-speed data processor and larger memory to run DBMS",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "software, so it is costly.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Complexity",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "DBMS creates additional complexity and requirements",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": ".",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "RDBMS (Relational Database Management System)",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "The word RDBMS is termed as 'Relational Database Management System.' It is",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "represented as a table that contains rows and column.",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS is based on the Relational model; it was introduced by E. F. Codd.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "A relational database contains the following components:",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Table",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Record/ Tuple",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Field/Column name /Attribute",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Instance",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Schema",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Keys",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "An RDBMS is a tabular DBMS that maintains the security, integrity, accuracy, and",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "consistency of the data.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Types of Databases",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "There are various types of databases used for storing different varieties of data:",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "1) Centralized Database",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "It is the type of database that stores data at a centralized database system. It comforts",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "the users to access the stored data from different locations through several",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "applications. These applications contain the authentication process to let users access",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "data securely. An example of a Centralized database can be Central Library that",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "carries a central database of each library in a college/university.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Advantages of Centralized Database",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "It has decreased the risk of data management, i.e., manipulation of data will",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "not affect the core data.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Data consistency is maintained as it manages data in a central repository.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "It provides better data quality, which enables organizations to establish data",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "standards.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "It is less costly because fewer vendors are required to handle the data sets.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Disadvantages of Centralized Database",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "The size of the centralized database is large, which increases the response time",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "for fetching the data.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "It is not easy to update such an extensive database system.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "If any server failure occurs, entire data will be lost, which could be a huge loss.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "2) Distributed Database",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Unlike a centralized database system, in distributed systems, data is distributed",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "among different database systems of an organization. These database systems are",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "connected via communication links. Such links help the end-users to access the data",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "easily.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Examples",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "of the Distributed database are Apache Cassandra, HBase, Ignite,",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "etc.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "We can further divide a distributed database system into:",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Homogeneous DDB:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Those database systems which execute on the same",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "operating system and use the same application process and carry the same",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "hardware devices.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Heterogeneous DDB:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Those database systems which execute on different",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "operating systems under different application procedures, and carries different",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "hardware devices.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Advantages of Distributed Database",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Modular development is possible in a distributed database, i.e., the system can",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "be expanded by including new computers and connecting them to the",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "distributed system.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "One server failure will not affect the entire data set.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "3) Relational Database",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "This database is based on the relational data model, which stores data in the form of",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "rows(tuple) and columns(attributes), and together forms a table(relation). A",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "relational database uses SQL for storing, manipulating, as well as maintaining the",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "data. E.F. Codd invented the database in 1970. Each table in the database carries a",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "key that makes the data unique from others.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Examples",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "of Relational databases are",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "MySQL, Microsoft SQL Server, Oracle, etc.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Properties of Relational Database",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "There are following four commonly known properties of a relational model known",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "as ACID properties, where:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "A means Atomicity:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "This ensures the data operation will complete either with",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "success or with failure. It follows the 'all or nothing' strategy. For example, a",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "transaction will either be committed or will abort.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "C means Consistency:",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "If we perform any operation over the data, its value before",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "and after the operation should be preserved. For example, the account balance before",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "and after the transaction should be correct, i.e., it should remain conserved.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "I means Isolation:",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "There can be concurrent users for accessing data at the same time",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "from the database. Thus, isolation between the data should remain isolated. For",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "example, when multiple transactions occur at the same time, one transaction effects",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "should not be visible to the other transactions in the database.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "D means Durability:",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "It ensures that once it completes the operation and commits",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "the data, data changes should remain permanent.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "4) NoSQL Database",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Non-SQL/Not Only SQL is a type of database that is used for storing a wide range",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "of data sets. It is not a relational database as it stores data not only in tabular form",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "but in several different ways. It came into existence when the demand for building",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "modern applications increased. Thus, NoSQL presented a wide variety of database",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "technologies in response to the demands. We can further divide a NoSQL database",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "into the following four types:",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "a.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Key-value storage:",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "It is the simplest type of database storage where it stores",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "every single item as a key (or attribute name) holding its value, together.",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "b.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Document-oriented Database:",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "A type of database used to store data as JSON-",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "like document. It helps developers in storing data by using the same document-",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "model format as used in the application code.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "c.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Graph Databases:",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "It is used for storing vast amounts of data in a graph-like",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "structure. Most commonly, social networking websites use the graph database.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "d.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Wide-column stores:",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "It is similar to the data represented in relational",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "databases. Here, data is stored in large columns together, instead of storing in",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "rows.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Advantages of NoSQL Database",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "It enables good productivity in the application development as it is not required",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "to store data in a structured format.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "It is a better option for managing and handling large data sets.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "It provides high scalability.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Users can quickly access data from the database through key-value.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "5) Cloud Database",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "A type of database where data is stored in a virtual environment and executes over",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "the cloud computing platform. It provides users with various cloud computing",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "services (SaaS, PaaS, IaaS, etc.) for accessing the database. There are numerous",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "cloud platforms, but the best options are:",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Amazon Web Services(AWS)",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Microsoft Azure",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Kamatera",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "PhonixNAP",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "ScienceSoft",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Google Cloud SQL, etc.",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "6) Object-oriented Databases",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "The type of database that uses the object-based data model approach for storing data",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "in the database system. The data is represented and stored as objects which are",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "similar to the objects used in the object-oriented programming language.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "7) Hierarchical Databases",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "It is the type of database that stores data in the form of parent-children relationship",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "nodes. Here, it organizes data in a tree-like structure.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Data get stored in the form of records that are connected via links. Each child record",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "in the tree will contain only one parent. On the other hand, each parent record can",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "have multiple child records.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "8) Network Databases",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "It is the database that typically follows the network data model. Here, the",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "representation of data is in the form of nodes connected via links between them.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Unlike the hierarchical database, it allows each record to have multiple children and",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "parent nodes to form a generalized graph structure.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "9) Personal Database",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Collecting and storing data on the user's system defines a Personal Database. This",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "database is basically designed for a single user.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Advantage of Personal Database",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "It is simple and easy to handle.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "It occupies less storage space as it is small in size.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "10) Operational Database",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "The type of database which creates and updates the database in real-time. It is",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "basically designed for executing and handling the daily data operations in several",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "businesses. For example, An organization uses operational databases for managing",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "per day transactions.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "11) Enterprise Database",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Large organizations or enterprises use this database for managing a massive amount",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "of data. It helps organizations to increase and improve their efficiency. Such a",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "database allows simultaneous access to users.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Advantages of Enterprise Database:",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Multi processes are supportable over the Enterprise database.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "It allows executing parallel queries on the system.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "What is RDBMS",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "stands for",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Relational Database Management Systems.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "All modern database management systems like SQL, MS SQL Server, IBM DB2,",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "ORACLE, My-SQL and Microsoft Access are based on RDBMS.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "It is called Relational Data Base Management System (RDBMS) because it is based",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "on relational model introduced by E.F. Codd.",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "How it works",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Data is represented in terms of tuples (rows) in RDBMS.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Relational database is most commonly used database. It contains number of tables",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "and each table has its own primary key.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Due to a collection of organized set of tables, data can be accessed easily in RDBMS.",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Brief History of RDBMS",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "During 1970 to 1972, E.F. Codd published a paper to propose the use of relational",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "database model.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS is originally based on that E.F. Codd's relational model invention.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "What is table",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "The RDBMS database uses tables to store data. A table is a collection of related data",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "entries and contains rows and columns to store data.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "A table is the simplest example of data storage in RDBMS.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Let's see the example of student table.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "ID",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Name",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "AGE",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "COURSE",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Ajeet",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "24",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "B.Tech",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "aryan",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "20",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "C.A",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "3",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Mahesh",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "21",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "BCA",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "4",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Ratan",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "22",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "MCA",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "5",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Vimal",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "26",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "BSC",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "What is field",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Field is a smaller entity of the table which contains specific information about every",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "record in the table. In the above example, the field in the student table consist of id,",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "name, age, course.",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "What is row or record",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "A row of a table is also called record. It contains the specific information of each",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "individual entry in the table. It is a horizontal entity in the table. For example: The",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "above table contains 5 records.",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Let's see one record/row in the table.",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Ajeet",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "24",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "B.Tech",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "What is column",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "A column is a vertical entity in the table which contains all information associated",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "with a specific field in a table. For example: \"name\" is a column in the above table",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "which contains all information about student's name.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Ajeet",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Aryan",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Mahesh",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Ratan",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Vimal",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "NULL Values",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "The NULL value of the table specifies that the field has been left blank during record",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "creation. It is totally different from the value filled with zero or a field that contains",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "space.",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Data Integrity",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "There are the following categories of data integrity exist with each RDBMS:",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Entity integrity",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": ": It specifies that there should be no duplicate rows in a table.",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Domain integrity",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": ": It enforces valid entries for a given column by restricting the",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "type, the format, or the range of values.",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Referential integrity",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": ": It specifies that rows cannot be deleted, which are used by",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "other records.",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "User-defined integrity",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": ": It enforces some specific business rules that are defined by",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "users. These rules are different from entity, domain or referential integrity.",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Difference between DBMS and RDBMS",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Although DBMS and RDBMS both are used to store information in physical",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "database but there are some remarkable differences between them.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "The main differences between DBMS and RDBMS are given below:",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "No.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "DBMS",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "1)",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "DBMS applications store",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "data as file",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS applications store",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "data in a tabular form",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "2)",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "In DBMS, data is generally sto",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "either a hierarchical form",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "navigational form.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "In RDBMS, the tables have an identifier c",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "primary key and the data values are stored i",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "form of tables.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "3)",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Normalization is not",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "presen",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "DBMS.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Normalization is",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "present in RDBMS.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "4)",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "DBMS",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "does",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "not",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "apply",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "security",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "with",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "regards",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "to",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "manipulation.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "defines the integrity constraint",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "for the purpose of ACID",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "(Atomocity, Consistency, Isolation and Durab",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "property.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "5)",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "DBMS uses file system to",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "data, so there will be",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "no re",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "between the tables",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "in RDBMS, data values are stored in the fo",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "tables, so a",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "relationship",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "between these data v",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "will be stored in the form of a table as well.",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "6)",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "DBMS has to provide some un",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "methods to access the s",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "information.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS system supports a tabular structure",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "data and a relationship between them to acce",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "stored information.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "7)",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "DBMS",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "does",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "not",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "su",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "distributed database",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "supports distributed database",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "8)",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "DBMS is meant to be for",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "organization and",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "deal with",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "data",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ". it supports",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "single user",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS is designed to",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "handle large",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "amount of data",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ". it supports",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "multiple users",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "9)",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Examples of DBMS are",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "systems,",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "xml",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "etc.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Example of RDBMS are",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "mysql",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ",",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "postgre",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ",",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "sql server",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ",",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "oracle",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "etc.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "After observing the differences between DBMS and RDBMS, you can say that",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "RDBMS is an extension of DBMS. There are many software products in the market",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "today who are compatible for both DBMS and RDBMS. Means today a RDBMS",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "application is DBMS application and vice-versa.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "DBMS vs. File System",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "File System Approach",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "File based systems were an early attempt to computerize the manual system. It is",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "also called a traditional based approach in which a decentralized approach was taken",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "where each department stored and controlled its own data with the help of a data",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "processing specialist. The main role of a data processing specialist was to create the",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "necessary computer file structures, and also manage the data within structures and",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "design some application programs that create reports based on file data.",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "In the above figure:",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "Consider an example of a student's file system. The student file will contain",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "information regarding the student (i.e. roll no, student name, course etc.). Similarly,",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "we have a subject file that contains information about the subject and the result file",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "which contains the information regarding the result.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "Some fields are duplicated in more than one file, which leads to data redundancy. So",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "to overcome this problem, we need to create a centralized system, i.e. DBMS",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "approach.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "DBMS:",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "A database approach is a well-organized collection of data that are related in a",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "meaningful way which can be accessed by different users but stored only once in a",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "system. The various operations performed by the DBMS system are: Insertion,",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "deletion, selection, sorting etc.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "In the above figure,",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "In the above figure, duplication of data is reduced due to centralization of data.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "There are the following differences between DBMS and File systems:",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Basis",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "DBMS Approach",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "File System Approach",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Meaning",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "DBMS is a collection of",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "data. In DBMS, the user i",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "required to write the",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "procedures.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "The file system is a collection of",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "data. In this system, the user",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "has to write the procedures for",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "managing the database.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Sharing of data",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Due to the centralized",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "approach, data sharing is",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "easy.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Data is distributed in many files,",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "and it may be of different",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "formats, so it isn't easy to share",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "data.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Data Abstraction",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "DBMS gives an abstract",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "view of data that hides the",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "details.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "The file system provides the",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "detail of the data",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "representation and storage of dat",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Security and Prote",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "DBMS provides a good",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "protection mechanism.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "It isn't easy to protect a file unde",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "the file system.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Recovery Mechani",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "DBMS provides a crash",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "recovery mechanism, i.e.,",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "DBMS protects the user",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "system failure.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "The file system doesn't have a",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "crash mechanism, i.e., if the",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "system crashes while entering",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "data, then the content of the file",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "will be lost.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Manipulation",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Techniques",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "DBMS contains a wide",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "variety of sophisticated",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "techniques to store and",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "retrieve the data",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": ".",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "The file system can't efficiently",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "and retrieve the data.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Concurrency",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Problems",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "DBMS takes care of",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Concurrent access of data",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "some form of locking.",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "In the File system, concurrent",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "access has many problems",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "redirecting the file while",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "deleting some information or",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "updating some information.",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Where to use",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Database approach used in",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "systems which interrelate",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "files.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "File system approach used",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "in large systems which",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "interrelate many files.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Cost",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "The database system is",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "expensive to design.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "The file system approach is",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "cheaper to design.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "DataRedundancy",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Inconsistency",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Due to the centralization",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "of the database, the",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "problems of data",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "redundancy and",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "inconsistency is controlled.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "In this, the files and",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "application programs are",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "created by different",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "programmers so that there",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "exists a lot of duplication",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "of data which",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "may lead to inconsistency.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Structure",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "The database structure is",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "complex to design.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "The file system approach has a",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "simple structure.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Data",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Independence",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "In this system, Data",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Independence exists, and it",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "can be of two types.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Logical Data Independence",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Physical Data Independence",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "In the File system approach,",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "exists no Data Independence.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Integrity",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Constraints",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Integrity Constraints are",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "easy to apply.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Integrity Constraints are",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "difficult to implement in file sys",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Data Models",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "In the database approach,",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "3 types of data models exist:",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Hierarchal data models",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Network data models",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Relational data models",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "In the file system approach,",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "there is no concept of data",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "models exists.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Flexibility",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Changes are often a",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "necessity to the content of",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "the data stored in any",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "system, and these",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "changes are more easily",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "with a database approach.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "The flexibility of the system is",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "less as compared to the",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "DBMS approach.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Examples",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Oracle, SQL Server, Sybase eCobol, C++ etc.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "DBMS Architecture",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "The DBMS design depends upon its architecture. The basic client/server",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "architecture is used to deal with a large number of PCs, web servers, database",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "servers and other components that are connected with networks.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "The client/server architecture consists of many PCs and a workstation which",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "are connected via the network.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "DBMS architecture depends upon how users are connected to the database to",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "get their request done.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Types of DBMS Architecture",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "Database architecture can be seen as a single tier or multi-tier. But logically, database",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "architecture is of two types like:",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "2-tier architecture",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "and",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "3-tier architecture",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "1-Tier Architecture",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "In this architecture, the database is directly available to the user. It means the",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "user can directly sit on the DBMS and uses it.",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "Any changes done here will directly be done on the database itself. It doesn't",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "provide a handy tool for end users.",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "The 1-Tier architecture is used for development of the local application, where",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "programmers can directly communicate with the database for the quick",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "response.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "2-Tier Architecture",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "The 2-Tier architecture is same as basic client-server. In the two-tier",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "architecture, applications on the client end can directly communicate with the",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "database at the server side. For this interaction, API's like:",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "ODBC",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": ",",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "JDBC",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "are",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "used.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "The user interfaces and application programs are run on the client-side.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "The server side is responsible to provide the functionalities like: query",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "processing and transaction management.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "To communicate with the DBMS, client-side application establishes a",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "connection with the server side.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Fig: 2-tier Architecture",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "3-Tier Architecture",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "The 3-Tier architecture contains another layer between the client and server. In",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "this architecture, client can't directly communicate with the server.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "The application on the client-end interacts with an application server which",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "further communicates with the database system.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "End user has no idea about the existence of the database beyond the application",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "server. The database also has no idea about any other user beyond the",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "application.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "The 3-Tier architecture is used in case of large web application.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Three schema Architecture",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "The three schema architecture is also called ANSI/SPARC architecture or",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "three-level architecture.",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "This framework is used to describe the structure of a specific database system.",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "The three schema architecture is also used to separate the user applications and",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "physical database.",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "The three schema architecture contains three-levels. It breaks the database",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "down into three different categories.",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "The three-schema architecture is as follows:",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "In the above diagram:",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "It shows the DBMS architecture.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Mapping is used to transform the request and response between various",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "database levels of architecture.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Mapping is not good for small DBMS because it takes more time.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "In External / Conceptual mapping, it is necessary to transform the request from",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "external level to conceptual schema.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "In Conceptual / Internal mapping, DBMS transform the request from the",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "conceptual to internal level.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Objectives of Three schema Architecture",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "The main objective of three level architecture is to enable multiple users to access",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "the same data with a personalized view while storing the underlying data only once.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Thus it separates the user's view from the physical structure of the database. This",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "separation is desirable for the following reasons:",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Different users need different views of the same data.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "The approach in which a particular user needs to see the data may change over",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "time.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "The users of the database should not worry about the physical implementation",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "and internal workings of the database such as data compression and encryption",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "techniques, hashing, optimization of the internal structures etc.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "All users should be able to access the same data according to their",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "requirements.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "DBA should be able to change the conceptual structure of the database without",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "affecting the user's",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Internal structure of the database should be unaffected by changes to physical",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "aspects of the storage.",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "1. Internal Level",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "The internal level has an internal schema which describes the physical storage",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "structure of the database.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "The internal schema is also known as a physical schema.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "It uses the physical data model. It is used to define that how the data will be",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "stored in a block.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "The physical level is used to describe complex low-level data structures in",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "detail.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "The internal level is generally is concerned with the following activities:",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Storage",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "space",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "allocations.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "For Example:",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "B-Trees, Hashing etc.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Access",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "paths.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "For Example:",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Specification of primary and secondary keys, indexes, pointers",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "and sequencing.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Data compression and encryption techniques.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Optimization of internal structures.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Representation of stored fields.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "2. Conceptual Level",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "The conceptual schema describes the design of a database at the conceptual",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "level. Conceptual level is also known as logical level.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "The conceptual schema describes the structure of the whole database.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "The conceptual level describes what data are to be stored in the database and",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "also describes what relationship exists among those data.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "In the conceptual level, internal details such as an implementation of the data",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "structure are hidden.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "Programmers and database administrators work at this level.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "3. External Level",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "At the external level, a database contains several schemas that sometimes",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "called as subschema. The subschema is used to describe the different view of",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "the database.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "An external schema is also known as view schema.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "Each view schema describes the database part that a particular user group is",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "interested and hides the remaining database from that user group.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "The view schema describes the end user interaction with database systems.",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "Mapping between Views",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "The three levels of DBMS architecture don't exist independently of each other.",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "There must be correspondence between the three levels i.e. how they actually",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "correspond with each other. DBMS is responsible for correspondence between",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "the three types of schema. This correspondence is called Mapping.",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "There are basically two types of mapping in the database architecture:",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Conceptual/ Internal Mapping",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "External / Conceptual Mapping",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Conceptual/ Internal Mapping",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "The Conceptual/ Internal Mapping lies between the conceptual level and the",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "internal level. Its role is to define the correspondence between the records and",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "fields of the conceptual level and files and data structures of the internal level.",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "External/ Conceptual Mapping",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "The external/Conceptual Mapping lies between the external level and the",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Conceptual level. Its role is to define the correspondence between a particular",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "external and the conceptual view.",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Data Models",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Data Model is the modeling of the data description, data semantics, and consistency",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "constraints of the data. It provides the conceptual tools for describing the design of",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "a database at each level of data abstraction. Therefore, there are following four data",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "models used for understanding the structure of the database:",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "1) Relational Data Model:",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "This type of model designs the data in the form of rows",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "and columns within a table. Thus, a relational model uses tables for representing data",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "and in-between relationships. Tables are also called relations. This model was",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "initially described by Edgar F. Codd, in 1969. The relational data model is the widely",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "used model which is primarily used by commercial data processing applications.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "2) Entity-Relationship Data Model:",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "An ER model is the logical representation of",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "data as objects and relationships among them. These objects are known as entities,",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "and relationship is an association among these entities. This model was designed by",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Peter Chen and published in 1976 papers. It was widely used in database designing.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "A set of attributes describe the entities. For example, student_name, student_id",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "describes the 'student' entity. A set of the same type of entities is known as an 'Entity",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "set', and the set of the same type of relationships is known as 'relationship set'.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "3) Object-based Data Model:",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "An extension of the ER model with notions of",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "functions, encapsulation, and object identity, as well. This model supports a rich type",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "system that includes structured and collection types. Thus, in 1980s, various",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "database systems following the object-oriented approach were developed. Here, the",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "objects are nothing but the data carrying its properties.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "4) Semistructured Data Model:",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "This type of data model is different from the other",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "three data models (explained above). The semistructured data model allows the data",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "specifications at places where the individual data items of the same type may have",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "different attributes sets. The Extensible Markup Language, also known as XML, is",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "widely used for representing the semistructured data. Although XML was initially",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "designed for including the markup information to the text document, it gains",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "importance because of its application in the exchange of data.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Data model Schema and Instance",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "The data which is stored in the database at a particular moment of time is called",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "an instance of the database.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "The overall design of a database is called schema.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "A database schema is the skeleton structure of the database. It represents the",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "logical view of the entire database.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "A schema contains schema objects like table, foreign key, primary key, views,",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "columns, data types, stored procedure, etc.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "A database schema can be represented by using the visual diagram. That",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "diagram shows the database objects and relationship with each other.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "A database schema is designed by the database designers to help programmers",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "whose software will interact with the database. The process of database",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "creation is called data modeling.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "A schema diagram can display only some aspects of a schema like the name of record",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "type, data type, and constraints. Other aspects can't be specified through the schema",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "diagram. For example, the given figure neither show the data type of each data item",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "nor the relationship among various files.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "In the database, actual data changes quite frequently. For example, in the given",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "figure, the database changes whenever we add a new grade or add a student. The",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "data at a particular moment of time is called the instance of the database.",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "Data Independence",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Data independence can be explained using the three-schema architecture.",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Data independence refers characteristic of being able to modify the schema at",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "one level of the database system without altering the schema at the next higher",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "level.",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "There are two types of data independence:",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "1. Logical Data Independence",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Logical data independence refers characteristic of being able to change the",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "conceptual schema without having to change the external schema.",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Logical data independence is used to separate the external level from the",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "conceptual view.",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "If we do any changes in the conceptual view of the data, then the user view of",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "the data would not be affected.",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Logical data independence occurs at the user interface level.",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "2. Physical Data Independence",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Physical data independence can be defined as the capacity to change the",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "internal schema without having to change the conceptual schema.",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "If we do any changes in the storage size of the database system server, then the",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Conceptual structure of the database will not be affected.",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Physical data independence is used to separate conceptual levels from the",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "internal levels.",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Physical data independence occurs at the logical interface level.",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Fig: Data Independence",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Database Language",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "A DBMS has appropriate languages and interfaces to express database queries",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "and updates.",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Database languages can be used to read, store and update the data in the",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "database.",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Types of Database Language",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "1. Data Definition Language",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "DDL",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "stands for",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "D",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "ata",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "D",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "efinition",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "L",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "anguage. It is used to define database structure",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "or pattern.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "It is used to create schema, tables, indexes, constraints, etc. in the database.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Using the DDL statements, you can create the skeleton of the database.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Data definition language is used to store the information of metadata like the",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "number of tables and schemas, their names, indexes, columns in each table,",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "constraints, etc.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Here are some tasks that come under DDL:",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Create:",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "It is used to create objects in the database.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Alter:",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "It is used to alter the structure of the database.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Drop:",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "It is used to delete objects from the database.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Truncate:",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "It is used to remove all records from a table.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Rename:",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "It is used to rename an object.",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Comment:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It is used to comment on the data dictionary.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "These commands are used to update the database schema that's why they come under",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Data definition language.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "2. Data Manipulation Language",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "DML",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "stands for",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "D",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "ata",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "M",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "anipulation",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "L",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "anguage. It is used for accessing and",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "manipulating data in a database. It handles user requests.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Here are some tasks that come under DML:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Select:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It is used to retrieve data from a database.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Insert:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It is used to insert data into a table.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Update:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It is used to update existing data within a table.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Delete:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It is used to delete all records from a table.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Merge:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It performs UPSERT operation, i.e., insert or update operations.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Call:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It is used to call a structured query language or a Java subprogram.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Explain Plan:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It has the parameter of explaining data.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Lock Table:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "It controls concurrency.",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "3. Data Control Language",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "DCL",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "stands for",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "D",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "ata",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "C",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "ontrol",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "L",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "anguage. It is used to retrieve the stored or saved",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "data.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "The DCL execution is transactional. It also has rollback parameters.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "(But in Oracle database, the execution of data control language does not have",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "the feature of rolling back.)",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Here are some tasks that come under DCL:",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Grant:",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "It is used to give user access privileges to a database.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Revoke:",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "It is used to take back permissions from the user.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "There are the following operations which have the authorization of Revoke:",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "CONNECT, INSERT, USAGE, EXECUTE, DELETE, UPDATE and SELECT.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "4. Transaction Control Language",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "TCL is used to run the changes made by the DML statement. TCL can be grouped",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "into a logical transaction.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Here are some tasks that come under TCL:",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Commit:",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "It is used to save the transaction on the database.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Rollback:",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "It is used to restore the database to original since the last Commit.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "ACID Properties in DBMS",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "DBMS is the management of data that should remain integrated when any changes",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "are done in it. It is because if the integrity of the data is affected, whole data will",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "get disturbed and corrupted. Therefore, to maintain the integrity of the data, there",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "are four properties described in the database management system, which are",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "known as the ACID properties. The ACID properties are meant for the transaction",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "that goes through a different group of tasks, and there we come to see the role of",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "the ACID properties.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "In this section, we will learn and understand about the ACID properties. We will",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "learn what these properties stand for and what does each property is used for. We",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "will also understand the ACID properties with the help of some examples",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "ACID Properties",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "The expansion of the term ACID defines for:",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "1) Atomicity:",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "The term atomicity defines that the data remains atomic. It means if",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "any operation is performed on the data, either it should be performed or executed",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "completely or should not be executed at all. It further means that the operation",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "should not break in between or execute partially. In the case of executing",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "operations on the transaction, the operation should be completely executed and",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "not partially.",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Example:",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "If Remo has account A having $30 in his account from which he wishes to",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "send $10 to Sheero's account, which is B. In account B, a sum of $ 100 is already",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "present. When $10 will be transferred to account B, the sum will become $110.",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Now, there will be two operations that will take place. One is the amount of $10",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "that Remo wants to transfer will be debited from his account A, and the same",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "amount will get credited to account B, i.e., into Sheero's account. Now, what",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "happens - the first operation of debit executes successfully, but the credit",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "operation, however, fails. Thus, in Remo's account A, the value becomes $20, and",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "to that of Sheero's account, it remains $100 as it was previously present.",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "In the above diagram, it can be seen that after crediting $10, the amount is still",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "$100 in account B. So, it is not an atomic transaction.",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "The below image shows that both debit and credit operations are done",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "successfully. Thus the transaction is atomic.",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Thus, when the amount loses atomicity, then in the bank systems, this becomes a",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "huge issue, and so the atomicity is the main focus in the bank systems.",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "2) Consistency:",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "The word",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "consistency",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "means that the value should remain",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "preserved always. In",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "DBMS",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": ", the integrity of the data should be maintained, which",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "means if a change in the database is made, it should remain preserved always. In the",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "case of transactions, the integrity of the data is very essential so that the database",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "remains consistent before and after the transaction. The data should always be",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "correct.",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Example:",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "In the above figure, there are three accounts, A, B, and C, where A is making a",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "transaction T one by one to both B & C. There are two operations that take place,",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "i.e., Debit and Credit. Account A firstly debits $50 to account B, and the amount in",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "account A is read $300 by B before the transaction.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "After the successful transaction T, the available amount in B becomes $150. Now,",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "A debits $20 to account C, and that time, the value read by C is $250 (that is correct",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "as a debit of $50 has been successfully done to B).",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "The debit and credit operation from account A to C has been done successfully.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "We can see that the transaction is done successfully, and the value is also read",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "correctly. Thus, the data is consistent. In case the value read by B and C is $300,",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "which means that data is inconsistent because when the debit operation executes, it",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "will not be consistent.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "4) Isolation:",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "The term 'isolation' means separation. In DBMS, Isolation is the",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "property of a database where no data should affect the other one and may occur",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "concurrently.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "In short, the operation on one database should begin when the operation on the first",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "database gets complete. It means if two operations are being performed on two",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "different databases, they may not affect the value of one another. In the case of",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "transactions, when two or more transactions occur simultaneously, the consistency",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "should remain maintained.",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Any changes that occur in any particular transaction will not be seen by other",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "transactions until the change is not committed in the memory.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Example:",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "If two operations are concurrently running on two different accounts, then",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "the value of both accounts should not get affected.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "The value should remain persistent. As you can see in the below diagram, account",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "A is making T1 and T2 transactions to account B and C, but both are executing",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "independently without affecting each other. It is known as Isolation.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "4) Durability:",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Durability ensures the permanency of something. In DBMS, the term",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "durability ensures that the data after the successful execution of the operation",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "becomes permanent in the database.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "The durability of the data should be so perfect that even if the system fails or leads",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "to a crash, the database still survives. However, if gets lost, it becomes the",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "responsibility of the recovery manager for ensuring the durability of the database.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "For committing the values, the COMMIT command must be used every time we",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "make changes.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Therefore, the ACID property of DBMS plays a vital role in maintaining the",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "consistency and availability of data in the database.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Thus, it was a precise introduction of ACID properties in DBMS. We have discussed",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "these properties in the transaction section also.",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "Instapdf.in",
+      "page": 48
+    }
+  ]
+}
