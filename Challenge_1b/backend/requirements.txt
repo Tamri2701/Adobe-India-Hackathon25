@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pymupdf
+sentence-transformers
+torch
+langdetect
